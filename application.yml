@@ -1,0 +1,15 @@
+spring:
+    profiles:
+    active:
+    -dev
+    
+---
+spring:
+    profile: dev
+    application:
+        name: microservicecloud-config-owen-dev
+---
+spring:
+    profiles: test
+    application:
+        name: microservicecloud-config-owen-test
